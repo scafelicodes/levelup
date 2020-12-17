@@ -1,0 +1,29 @@
+$primary: #865BCE;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 35px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-default {
+    border: 1px solid $primary;
+    background-color: $primary;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
